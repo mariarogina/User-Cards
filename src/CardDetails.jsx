@@ -15,7 +15,7 @@ const CardDetails = () => {
 
   useEffect(() => {
     fetchDetails();
-  }, []);
+  }, [fetchDetails]);
 
   console.log(userDetails);
   return (
