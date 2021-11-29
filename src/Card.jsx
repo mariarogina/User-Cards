@@ -1,10 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { v4 as uuidv4 } from "uuid";
 
 const Card = ({ user }) => {
   return (
     <div className="userCard">
-      <li className="userListItem" key={user.id}>
+      <li className="userListItem" key={uuidv4()}>
         <h5>{user.name}</h5>
         <br />
         <img
