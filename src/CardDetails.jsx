@@ -24,7 +24,7 @@ const CardDetails = () => {
         <p>Name: {userDetails.name}</p>
         <p>Email: {userDetails.email}</p>
         <p>Phone: {userDetails.phone}</p>
-        <p>Website: {userDetails.website}</p>
+        <p>Website: {`https://${user.website}`}</p>
         <p>Name: {userDetails.company?.name}</p>
         <p>
           Address:
